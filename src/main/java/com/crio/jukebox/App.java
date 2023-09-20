@@ -47,25 +47,4 @@ public class App {
             e.printStackTrace();
         }
     }
-//    public static void run(List<String> commandLineArgs) {
-//        // Complete the final logic to run the complete program.
-//        ApplicationConfig applicationConfig=new ApplicationConfig();
-//        CommandInvoker commandInvoker=applicationConfig.getCommandInvoker();
-//        BufferedReader bufferedReader;
-//          String inputFile=commandLineArgs.get(0).split("=")[1];
-//        commandLineArgs.remove(0);
-//        try{
-//            bufferedReader=new BufferedReader(new FileReader(inputFile));
-//            String line= bufferedReader.readLine();
-//            while(line!=null){
-//                List<String> tokens=Arrays.asList(line.split(" "));
-//                commandInvoker.executeCommand(tokens.get(0),tokens);
-//                System.out.println();
-//                line= bufferedReader.readLine();
-//            }
-//            bufferedReader.close();
-//        } catch (IOException  | NoSuchCommandException e) {
-//            e.printStackTrace();
-//        }
-//    }
 }
